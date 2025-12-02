@@ -1,133 +1,97 @@
-# 🧠 Quiz Game in C
+# 🏠 Quiz Game in C - Home Page
 
+Welcome to the **Quiz Game in C** project! 🎮
 A simple console-based **General Knowledge Quiz Game** built in **C programming language**.
-The game tests the player's knowledge through 10 basic MCQ questions and stores the score in a scoreboard file.
-![Scoreboard Preview](https://drive.google.com/uc?export=view&id=18M85sxfvbCIv0BrgyJT4gVraZ2XYpZFw)
+Test your knowledge with 10 fun multiple-choice questions and see your scores in a scoreboard.
 
 ---
 
 ## 📌 Features
 
-✔ **10 General Knowledge Questions**
-✔ **Scoreboard system** using text file (`Quiz score.txt`)
-✔ Shows **Correct/Wrong** feedback instantly
-✔ Prevents invalid input using re-attempt
-✔ Allows users to **Replay**
-✔ Clean and simple console UI
+* 10 basic general knowledge questions
+* Scoreboard system (records your scores)
+* Immediate Correct/Wrong feedback
+* Prevents invalid input (re-attempt for wrong answers)
+* Replay option
+* Clean console UI
 
 ---
 
-## 🎮 How to Play
+## 🎯 Sample Q&A
 
-When you run the program, you’ll see 3 options:
+**Q1:** Dhaka is capital of Bangladesh. On which river is it situated?
 
-```
-1. Start Quiz  
-2. Show Scoreboard  
-3. Quit
-```
+* (1) Padma
+* (2) Buriganga ✅
+* (3) Jamuna
+* (4) Meghna
 
-### 👉 1. Start Quiz
+**Q2:** Which river flows across the India-Bangladesh border?
 
-* Each question has 4 options
-* Correct answer → “Correct!”
-* Wrong answer → shows correct answer
-* Invalid input → repeats the same question
-* After 10 questions, final result will be shown
-* User can enter name and save score
+* (1) Hooghly River
+* (2) Brahmaputra River
+* (3) Ichamati River ✅
+* (4) Surma River
 
-### 👉 2. Show Scoreboard
+**Q3:** How many rivers are there in Dhaka?
+
+* (1) Six ✅
+* (2) Five
+* (3) Three
+* (4) Four
+
+> Each correct answer gives you 1 point. Try to get all 10 correct!
+
+---
+
+## 📸 Screenshot / Scoreboard Preview
 
 * Displays all previous scores stored in `Quiz score.txt`
-  
-  ![Scoreboard Preview](https://drive.google.com/uc?export=view&id=1wLQhiHWfrR9SmqreqjcJE3YNhOI2ehYo)
 
-### 👉 3. Quit
+![Scoreboard Preview](https://drive.google.com/uc?export=view&id=1wLQhiHWfrR9SmqreqjcJE3YNhOI2ehYo)
 
-* Exits the game
-
----
-
-## 🧪 Project Structure
-
-```
-📁 Quiz-Game-C
- ├── quiz_game.c
- ├── Quiz score.txt
- └── README.md
-```
-
----
-
-## 🛠 Technologies Used
-
-* **C Language**
-* `stdio.h`, `stdlib.h`, `conio.h`
-* File handling (`fopen`, `fscanf`, `fprintf`)
+> **Note:** Upload your scoreboard screenshot to `images/screenshot.png` in the repository.
 
 ---
 
 ## 🚀 How to Run
 
-### Windows / Linux / Mac
+1. Compile the code:
 
-1. Compile the code
-
-   ```bash
-   gcc quiz_game.c -o quiz
-   ```
-2. Run
-
-   ```bash
-   ./quiz
-   ```
-
----
-
-## 📸 Output Preview
-
+```bash
+gcc quiz_game.c -o quiz
 ```
-Welcome to the QUIZ GAME
--------------------------------
-The quiz has 10 very basic questions...
 
-1. Start Quiz
-2. Show Scoreboard
-3. Quit
+2. Run the game:
+
+```bash
+./quiz
 ```
 
 ---
 
-## 📂 Scoreboard Example
+## 🌐 Project Home Page
 
-```
-Name: Rahim, Score: 7
-Name: Karim, Score: 9
-Name: Sifat, Score: 10
-```
+For full project details and updates, visit: 
 
+![Scoreboard Preview](https://drive.google.com/uc?export=view&id=18M85sxfvbCIv0BrgyJT4gVraZ2XYpZFw)
 ---
 
-## 📖 Summary
+## 📝 Summary
 
-This project is a perfect beginner-friendly C program demonstrating:
+This project demonstrates:
 
 * Conditional statements
 * Loops
-* File handling
+* File handling (fopen, fscanf, fprintf)
 * User input validation
-* Basic UI/UX in console
-
-Feel free to modify the quiz questions or improve the UI!
+* Basic console UI/UX
 
 ---
 
 ## ⭐ Suggestions for Improvement
 
-Want to extend it further? Try adding:
-
-* Timer for each question
-* Difficulty levels
-* Randomized questions
-* GUI version using C++/SDL
-
+* Add a timer for each question
+* Implement difficulty levels
+* Randomize questions
+* Build a GUI version using C++/SDL
