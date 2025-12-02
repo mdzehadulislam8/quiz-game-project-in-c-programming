@@ -2,6 +2,7 @@
 
 A simple console-based **General Knowledge Quiz Game** built in **C programming language**.
 The game tests the player's knowledge through 10 basic MCQ questions and stores the score in a scoreboard file.
+![Scoreboard Preview](https://drive.google.com/uc?export=view&id=18M85sxfvbCIv0BrgyJT4gVraZ2XYpZFw)
 
 ---
 
