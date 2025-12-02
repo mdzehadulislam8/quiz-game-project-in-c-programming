@@ -50,7 +50,6 @@ Test your knowledge with 10 fun multiple-choice questions and see your scores in
 
 ![Scoreboard Preview](https://drive.google.com/uc?export=view&id=1wLQhiHWfrR9SmqreqjcJE3YNhOI2ehYo)
 
-> **Note:** Upload your scoreboard screenshot to `images/screenshot.png` in the repository.
 
 ---
 
